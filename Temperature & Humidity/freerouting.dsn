@@ -1,0 +1,388 @@
+(pcb C:\Users\TomWhyte-Venables\OneDrive - bigsis.tech\CAD2\Components\Electronics\Temperature & Humidity\freerouting.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.7")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  66736.9 -48648.2  51963.1 -48648.2  51963.1 -27601.8
+            66736.9 -27601.8  66736.9 -48648.2)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "PCM_Espressif:ESP32-C3-MINI-1"
+      (place U1 59350.000000 -37950.000000 front 0.000000 (PN "ESP32-C3-MINI-1"))
+    )
+  )
+  (library
+    (image "PCM_Espressif:ESP32-C3-MINI-1"
+      (outline (path signal 100  6600 -8300  6600 8300))
+      (outline (path signal 100  6600 2900  -6600 2900))
+      (outline (path signal 100  6600 8300  -6600 8300))
+      (outline (path signal 100  -5800 2900  -6600 2100))
+      (outline (path signal 100  -6600 -8300  6600 -8300))
+      (outline (path signal 100  -6600 -8300  -6600 8300))
+      (outline (path signal 50  6800 -8500  -6800 -8500))
+      (outline (path signal 50  6800 8500  6800 -8500))
+      (outline (path signal 50  -6800 -8500  -6800 8500))
+      (outline (path signal 50  -6800 8500  6800 8500))
+      (outline (path signal 120  6800 -8500  6000 -8500))
+      (outline (path signal 120  6800 -7700  6800 -8500))
+      (outline (path signal 120  6800 8500  6800 7900))
+      (outline (path signal 120  6600 -8300  -6600 -8300))
+      (outline (path signal 120  6600 8300  6600 -8300))
+      (outline (path signal 120  6050 8500  6800 8500))
+      (outline (path signal 120  -5925 8500  -6775 8500))
+      (outline (path signal 120  -6600 -8300  -6600 8300))
+      (outline (path signal 120  -6600 2900  6600 2900))
+      (outline (path signal 120  -6600 8300  6600 8300))
+      (outline (path signal 120  -6800 -8500  -6000 -8500))
+      (outline (path signal 120  -6800 -7700  -6800 -8500))
+      (pin Rect[T]Pad_700x700_um (rotate 90) 53 -5950 2250)
+      (pin Rect[T]Pad_700x700_um (rotate 90) 52 -5950 -7650)
+      (pin Rect[T]Pad_700x700_um (rotate 90) 51 5950 -7650)
+      (pin Rect[T]Pad_700x700_um (rotate 90) 50 5950 2250)
+      (pin Rect[T]Pad_1450x1450_um (rotate 90) 49 1975 -4675)
+      (pin Rect[T]Pad_1450x1450_um (rotate 90) 49@1 1975 -2700)
+      (pin Rect[T]Pad_1450x1450_um (rotate 90) 49@2 1975 -725)
+      (pin Rect[T]Pad_1450x1450_um (rotate 90) 49@3 0 -4675)
+      (pin Rect[T]Pad_1450x1450_um (rotate 90) 49@4 0 -2700)
+      (pin Rect[T]Pad_1450x1450_um (rotate 90) 49@5 0 -725)
+      (pin Rect[T]Pad_1450x1450_um (rotate 90) 49@6 -1975 -4675)
+      (pin Rect[T]Pad_1450x1450_um (rotate 90) 49@7 -1975 -2700)
+      (pin Cust[T]Pad_800x800_1450x_1450_6_um_4FB5GE7C904014384C2C64E07D7FGBB2 49@8 -1975 -725)
+      (pin Rect[T]Pad_400x800_um 48 -4800 2200)
+      (pin Rect[T]Pad_400x800_um 47 -4000 2200)
+      (pin Rect[T]Pad_400x800_um 46 -3200 2200)
+      (pin Rect[T]Pad_400x800_um 45 -2400 2200)
+      (pin Rect[T]Pad_400x800_um 44 -1600 2200)
+      (pin Rect[T]Pad_400x800_um 43 -800 2200)
+      (pin Rect[T]Pad_400x800_um 42 0 2200)
+      (pin Rect[T]Pad_400x800_um 41 800 2200)
+      (pin Rect[T]Pad_400x800_um 40 1600 2200)
+      (pin Rect[T]Pad_400x800_um 39 2400 2200)
+      (pin Rect[T]Pad_400x800_um 38 3200 2200)
+      (pin Rect[T]Pad_400x800_um 37 4000 2200)
+      (pin Rect[T]Pad_400x800_um 36 4800 2200)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 35 5900 1300)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 34 5900 500)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 33 5900 -300)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 32 5900 -1100)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 31 5900 -1900)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 30 5900 -2700)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 29 5900 -3500)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 28 5900 -4300)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 27 5900 -5100)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 26 5900 -5900)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 25 5900 -6700)
+      (pin Rect[T]Pad_400x800_um 24 4800 -7600)
+      (pin Rect[T]Pad_400x800_um 23 4000 -7600)
+      (pin Rect[T]Pad_400x800_um 22 3200 -7600)
+      (pin Rect[T]Pad_400x800_um 21 2400 -7600)
+      (pin Rect[T]Pad_400x800_um 20 1600 -7600)
+      (pin Rect[T]Pad_400x800_um 19 800 -7600)
+      (pin Rect[T]Pad_400x800_um 18 0 -7600)
+      (pin Rect[T]Pad_400x800_um 17 -800 -7600)
+      (pin Rect[T]Pad_400x800_um 16 -1600 -7600)
+      (pin Rect[T]Pad_400x800_um 15 -2400 -7600)
+      (pin Rect[T]Pad_400x800_um 14 -3200 -7600)
+      (pin Rect[T]Pad_400x800_um 13 -4000 -7600)
+      (pin Rect[T]Pad_400x800_um 12 -4800 -7600)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 11 -5900 -6700)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 10 -5900 -5900)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 9 -5900 -5100)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 8 -5900 -4300)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 7 -5900 -3500)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 6 -5900 -2700)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 5 -5900 -1900)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 4 -5900 -1100)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 3 -5900 -300)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 2 -5900 500)
+      (pin Rect[T]Pad_400x800_um (rotate 90) 1 -5900 1300)
+      (keepout "" (polygon F.Cu 0  6600 2900  -6600 2900  -6600 8300  6600 8300  6600 2900))
+      (keepout "" (polygon B.Cu 0  6600 2900  -6600 2900  -6600 8300  6600 8300  6600 2900))
+    )
+    (padstack Cust[T]Pad_800x800_1450x_1450_6_um_4FB5GE7C904014384C2C64E07D7FGBB2
+      (shape (polygon F.Cu 0  -725 125  -125 725  725 725  725 -725  -725 -725  -725 125))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_400x800_um
+      (shape (rect F.Cu -200 -400 200 400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_700x700_um
+      (shape (rect F.Cu -350 -350 350 350))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1450x1450_um
+      (shape (rect F.Cu -725 -725 725 725))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U1-53 U1-52 U1-51 U1-50 U1-49 U1-49@1 U1-49@2 U1-49@3 U1-49@4 U1-49@5
+        U1-49@6 U1-49@7 U1-49@8 U1-48 U1-47 U1-46 U1-45 U1-44 U1-43 U1-42 U1-41 U1-40
+        U1-39 U1-38 U1-37 U1-36 U1-14 U1-11 U1-2 U1-1)
+    )
+    (net +3V3
+      (pins U1-8 U1-3)
+    )
+    (net "unconnected-(U1-NC-Pad4)"
+      (pins U1-4)
+    )
+    (net "unconnected-(U1-GPIO2{slash}ADC1_CH2-Pad5)"
+      (pins U1-5)
+    )
+    (net "unconnected-(U1-GPIO3{slash}ADC1_CH3-Pad6)"
+      (pins U1-6)
+    )
+    (net "unconnected-(U1-NC-Pad7)"
+      (pins U1-7)
+    )
+    (net "unconnected-(U1-NC-Pad9)"
+      (pins U1-9)
+    )
+    (net "unconnected-(U1-NC-Pad10)"
+      (pins U1-10)
+    )
+    (net "unconnected-(U1-GPIO0{slash}ADC1_CH0{slash}XTAL_32K_P-Pad12)"
+      (pins U1-12)
+    )
+    (net "unconnected-(U1-GPIO1{slash}ADC1_CH1{slash}XTAL_32K_N-Pad13)"
+      (pins U1-13)
+    )
+    (net "unconnected-(U1-NC-Pad15)"
+      (pins U1-15)
+    )
+    (net "unconnected-(U1-GPIO10-Pad16)"
+      (pins U1-16)
+    )
+    (net "unconnected-(U1-NC-Pad17)"
+      (pins U1-17)
+    )
+    (net "unconnected-(U1-GPIO4{slash}ADC1_CH4-Pad18)"
+      (pins U1-18)
+    )
+    (net "unconnected-(U1-GPIO5{slash}ADC2_CH0-Pad19)"
+      (pins U1-19)
+    )
+    (net "unconnected-(U1-GPIO6-Pad20)"
+      (pins U1-20)
+    )
+    (net "unconnected-(U1-GPIO7-Pad21)"
+      (pins U1-21)
+    )
+    (net "unconnected-(U1-GPIO8-Pad22)"
+      (pins U1-22)
+    )
+    (net "unconnected-(U1-GPIO9-Pad23)"
+      (pins U1-23)
+    )
+    (net "unconnected-(U1-NC-Pad24)"
+      (pins U1-24)
+    )
+    (net "unconnected-(U1-NC-Pad25)"
+      (pins U1-25)
+    )
+    (net "unconnected-(U1-GPIO18{slash}USB_D--Pad26)"
+      (pins U1-26)
+    )
+    (net "unconnected-(U1-GPIO19{slash}USB_D+-Pad27)"
+      (pins U1-27)
+    )
+    (net "unconnected-(U1-NC-Pad28)"
+      (pins U1-28)
+    )
+    (net "unconnected-(U1-NC-Pad29)"
+      (pins U1-29)
+    )
+    (net "unconnected-(U1-GPIO20{slash}U0RXD-Pad30)"
+      (pins U1-30)
+    )
+    (net "unconnected-(U1-GPIO21{slash}U0TXD-Pad31)"
+      (pins U1-31)
+    )
+    (net "unconnected-(U1-NC-Pad32)"
+      (pins U1-32)
+    )
+    (net "unconnected-(U1-NC-Pad33)"
+      (pins U1-33)
+    )
+    (net "unconnected-(U1-NC-Pad34)"
+      (pins U1-34)
+    )
+    (net "unconnected-(U1-NC-Pad35)"
+      (pins U1-35)
+    )
+    (class kicad_default "" +3V3 "Board_0-+3V3" "Board_0-+3V8" "Board_0-+5V"
+      "Board_0-4S" "Board_0-6S" "Board_0-8S" "Board_0-EN_LDO" "Board_0-GND"
+      "Board_0-LATCH" "Board_0-Net-(D5-A)" "Board_0-Net-(D5-K)" "Board_0-Net-(J1-Pin_2)"
+      "Board_0-Net-(JP1-B)" "Board_0-Net-(U2-EN)" "Board_0-Net-(U2-IO9{slash}GPIO9)"
+      "Board_0-Net-(U3-PRG)" "Board_0-Net-(U4-VDD)" "Board_0-Net-(USB-C1-CC1)"
+      "Board_0-Net-(USB-C1-CC2)" "Board_0-Net-(s4-1)" "Board_0-Net-(s6-1)"
+      "Board_0-Net-(s8-1)" "Board_0-USB_D+" "Board_0-USB_D-" "Board_0-unconnected-(U1-NC-Pad4)"
+      "Board_0-unconnected-(U2-IO0{slash}GPIO0{slash}ADC1_CH0{slash}XTAL_32K_P-Pad12)"
+      "Board_0-unconnected-(U2-IO10{slash}GPIO10{slash}FSPICS0-Pad16)" "Board_0-unconnected-(U2-IO1{slash}GPIO1{slash}ADC1_CH1{slash}XTAL_32K_N-Pad13)"
+      "Board_0-unconnected-(U2-IO4{slash}GPIO4{slash}ADC1_CH4{slash}FSPIHD{slash}MTMS-Pad18)"
+      "Board_0-unconnected-(U2-NC-Pad10)" "Board_0-unconnected-(U2-NC-Pad15)"
+      "Board_0-unconnected-(U2-NC-Pad17)" "Board_0-unconnected-(U2-NC-Pad24)"
+      "Board_0-unconnected-(U2-NC-Pad25)" "Board_0-unconnected-(U2-NC-Pad28)"
+      "Board_0-unconnected-(U2-NC-Pad29)" "Board_0-unconnected-(U2-NC-Pad32)"
+      "Board_0-unconnected-(U2-NC-Pad33)" "Board_0-unconnected-(U2-NC-Pad34)"
+      "Board_0-unconnected-(U2-NC-Pad35)" "Board_0-unconnected-(U2-NC-Pad4)"
+      "Board_0-unconnected-(U2-NC-Pad7)" "Board_0-unconnected-(U2-NC-Pad9)"
+      "Board_0-unconnected-(U2-RXD0{slash}GPIO20{slash}U0RXD-Pad30)" "Board_0-unconnected-(U2-TXD0{slash}GPIO21{slash}U0TXD-Pad31)"
+      "Board_0-unconnected-(U3-TEMP-Pad6)" "Board_0-unconnected-(USB-C1-SBU1-PadA8)"
+      "Board_0-unconnected-(USB-C1-SBU2-PadB8)" "Board_1-+3V3" "Board_1-+3V8"
+      "Board_1-+5V" "Board_1-4S" "Board_1-6S" "Board_1-8S" "Board_1-EN_LDO"
+      "Board_1-GND" "Board_1-LATCH" "Board_1-Net-(D5-A)" "Board_1-Net-(D5-K)"
+      "Board_1-Net-(J1-Pin_2)" "Board_1-Net-(JP1-B)" "Board_1-Net-(U2-EN)"
+      "Board_1-Net-(U2-IO9{slash}GPIO9)" "Board_1-Net-(U3-PRG)" "Board_1-Net-(U4-VDD)"
+      "Board_1-Net-(USB-C1-CC1)" "Board_1-Net-(USB-C1-CC2)" "Board_1-Net-(s4-1)"
+      "Board_1-Net-(s6-1)" "Board_1-Net-(s8-1)" "Board_1-USB_D+" "Board_1-USB_D-"
+      "Board_1-unconnected-(U1-NC-Pad4)" "Board_1-unconnected-(U2-IO0{slash}GPIO0{slash}ADC1_CH0{slash}XTAL_32K_P-Pad12)"
+      "Board_1-unconnected-(U2-IO10{slash}GPIO10{slash}FSPICS0-Pad16)" "Board_1-unconnected-(U2-IO1{slash}GPIO1{slash}ADC1_CH1{slash}XTAL_32K_N-Pad13)"
+      "Board_1-unconnected-(U2-IO4{slash}GPIO4{slash}ADC1_CH4{slash}FSPIHD{slash}MTMS-Pad18)"
+      "Board_1-unconnected-(U2-NC-Pad10)" "Board_1-unconnected-(U2-NC-Pad15)"
+      "Board_1-unconnected-(U2-NC-Pad17)" "Board_1-unconnected-(U2-NC-Pad24)"
+      "Board_1-unconnected-(U2-NC-Pad25)" "Board_1-unconnected-(U2-NC-Pad28)"
+      "Board_1-unconnected-(U2-NC-Pad29)" "Board_1-unconnected-(U2-NC-Pad32)"
+      "Board_1-unconnected-(U2-NC-Pad33)" "Board_1-unconnected-(U2-NC-Pad34)"
+      "Board_1-unconnected-(U2-NC-Pad35)" "Board_1-unconnected-(U2-NC-Pad4)"
+      "Board_1-unconnected-(U2-NC-Pad7)" "Board_1-unconnected-(U2-NC-Pad9)"
+      "Board_1-unconnected-(U2-RXD0{slash}GPIO20{slash}U0RXD-Pad30)" "Board_1-unconnected-(U2-TXD0{slash}GPIO21{slash}U0TXD-Pad31)"
+      "Board_1-unconnected-(U3-TEMP-Pad6)" "Board_1-unconnected-(USB-C1-SBU1-PadA8)"
+      "Board_1-unconnected-(USB-C1-SBU2-PadB8)" "Board_2-+3V3" "Board_2-+3V8"
+      "Board_2-+5V" "Board_2-4S" "Board_2-6S" "Board_2-8S" "Board_2-EN_LDO"
+      "Board_2-GND" "Board_2-LATCH" "Board_2-Net-(D5-A)" "Board_2-Net-(D5-K)"
+      "Board_2-Net-(J1-Pin_2)" "Board_2-Net-(JP1-B)" "Board_2-Net-(U2-EN)"
+      "Board_2-Net-(U2-IO9{slash}GPIO9)" "Board_2-Net-(U3-PRG)" "Board_2-Net-(U4-VDD)"
+      "Board_2-Net-(USB-C1-CC1)" "Board_2-Net-(USB-C1-CC2)" "Board_2-Net-(s4-1)"
+      "Board_2-Net-(s6-1)" "Board_2-Net-(s8-1)" "Board_2-USB_D+" "Board_2-USB_D-"
+      "Board_2-unconnected-(U1-NC-Pad4)" "Board_2-unconnected-(U2-IO0{slash}GPIO0{slash}ADC1_CH0{slash}XTAL_32K_P-Pad12)"
+      "Board_2-unconnected-(U2-IO10{slash}GPIO10{slash}FSPICS0-Pad16)" "Board_2-unconnected-(U2-IO1{slash}GPIO1{slash}ADC1_CH1{slash}XTAL_32K_N-Pad13)"
+      "Board_2-unconnected-(U2-IO4{slash}GPIO4{slash}ADC1_CH4{slash}FSPIHD{slash}MTMS-Pad18)"
+      "Board_2-unconnected-(U2-NC-Pad10)" "Board_2-unconnected-(U2-NC-Pad15)"
+      "Board_2-unconnected-(U2-NC-Pad17)" "Board_2-unconnected-(U2-NC-Pad24)"
+      "Board_2-unconnected-(U2-NC-Pad25)" "Board_2-unconnected-(U2-NC-Pad28)"
+      "Board_2-unconnected-(U2-NC-Pad29)" "Board_2-unconnected-(U2-NC-Pad32)"
+      "Board_2-unconnected-(U2-NC-Pad33)" "Board_2-unconnected-(U2-NC-Pad34)"
+      "Board_2-unconnected-(U2-NC-Pad35)" "Board_2-unconnected-(U2-NC-Pad4)"
+      "Board_2-unconnected-(U2-NC-Pad7)" "Board_2-unconnected-(U2-NC-Pad9)"
+      "Board_2-unconnected-(U2-RXD0{slash}GPIO20{slash}U0RXD-Pad30)" "Board_2-unconnected-(U2-TXD0{slash}GPIO21{slash}U0TXD-Pad31)"
+      "Board_2-unconnected-(U3-TEMP-Pad6)" "Board_2-unconnected-(USB-C1-SBU1-PadA8)"
+      "Board_2-unconnected-(USB-C1-SBU2-PadB8)" "Board_3-+3V3" "Board_3-+3V8"
+      "Board_3-+5V" "Board_3-4S" "Board_3-6S" "Board_3-8S" "Board_3-EN_LDO"
+      "Board_3-GND" "Board_3-LATCH" "Board_3-Net-(D5-A)" "Board_3-Net-(D5-K)"
+      "Board_3-Net-(J1-Pin_2)" "Board_3-Net-(JP1-B)" "Board_3-Net-(U2-EN)"
+      "Board_3-Net-(U2-IO9{slash}GPIO9)" "Board_3-Net-(U3-PRG)" "Board_3-Net-(U4-VDD)"
+      "Board_3-Net-(USB-C1-CC1)" "Board_3-Net-(USB-C1-CC2)" "Board_3-Net-(s4-1)"
+      "Board_3-Net-(s6-1)" "Board_3-Net-(s8-1)" "Board_3-USB_D+" "Board_3-USB_D-"
+      "Board_3-unconnected-(U1-NC-Pad4)" "Board_3-unconnected-(U2-IO0{slash}GPIO0{slash}ADC1_CH0{slash}XTAL_32K_P-Pad12)"
+      "Board_3-unconnected-(U2-IO10{slash}GPIO10{slash}FSPICS0-Pad16)" "Board_3-unconnected-(U2-IO1{slash}GPIO1{slash}ADC1_CH1{slash}XTAL_32K_N-Pad13)"
+      "Board_3-unconnected-(U2-IO4{slash}GPIO4{slash}ADC1_CH4{slash}FSPIHD{slash}MTMS-Pad18)"
+      "Board_3-unconnected-(U2-NC-Pad10)" "Board_3-unconnected-(U2-NC-Pad15)"
+      "Board_3-unconnected-(U2-NC-Pad17)" "Board_3-unconnected-(U2-NC-Pad24)"
+      "Board_3-unconnected-(U2-NC-Pad25)" "Board_3-unconnected-(U2-NC-Pad28)"
+      "Board_3-unconnected-(U2-NC-Pad29)" "Board_3-unconnected-(U2-NC-Pad32)"
+      "Board_3-unconnected-(U2-NC-Pad33)" "Board_3-unconnected-(U2-NC-Pad34)"
+      "Board_3-unconnected-(U2-NC-Pad35)" "Board_3-unconnected-(U2-NC-Pad4)"
+      "Board_3-unconnected-(U2-NC-Pad7)" "Board_3-unconnected-(U2-NC-Pad9)"
+      "Board_3-unconnected-(U2-RXD0{slash}GPIO20{slash}U0RXD-Pad30)" "Board_3-unconnected-(U2-TXD0{slash}GPIO21{slash}U0TXD-Pad31)"
+      "Board_3-unconnected-(U3-TEMP-Pad6)" "Board_3-unconnected-(USB-C1-SBU1-PadA8)"
+      "Board_3-unconnected-(USB-C1-SBU2-PadB8)" GND "unconnected-(U1-GPIO0{slash}ADC1_CH0{slash}XTAL_32K_P-Pad12)"
+      "unconnected-(U1-GPIO10-Pad16)" "unconnected-(U1-GPIO18{slash}USB_D--Pad26)"
+      "unconnected-(U1-GPIO19{slash}USB_D+-Pad27)" "unconnected-(U1-GPIO1{slash}ADC1_CH1{slash}XTAL_32K_N-Pad13)"
+      "unconnected-(U1-GPIO20{slash}U0RXD-Pad30)" "unconnected-(U1-GPIO21{slash}U0TXD-Pad31)"
+      "unconnected-(U1-GPIO2{slash}ADC1_CH2-Pad5)" "unconnected-(U1-GPIO3{slash}ADC1_CH3-Pad6)"
+      "unconnected-(U1-GPIO4{slash}ADC1_CH4-Pad18)" "unconnected-(U1-GPIO5{slash}ADC2_CH0-Pad19)"
+      "unconnected-(U1-GPIO6-Pad20)" "unconnected-(U1-GPIO7-Pad21)" "unconnected-(U1-GPIO8-Pad22)"
+      "unconnected-(U1-GPIO9-Pad23)" "unconnected-(U1-NC-Pad10)" "unconnected-(U1-NC-Pad15)"
+      "unconnected-(U1-NC-Pad17)" "unconnected-(U1-NC-Pad24)" "unconnected-(U1-NC-Pad25)"
+      "unconnected-(U1-NC-Pad28)" "unconnected-(U1-NC-Pad29)" "unconnected-(U1-NC-Pad32)"
+      "unconnected-(U1-NC-Pad33)" "unconnected-(U1-NC-Pad34)" "unconnected-(U1-NC-Pad35)"
+      "unconnected-(U1-NC-Pad4)" "unconnected-(U1-NC-Pad7)" "unconnected-(U1-NC-Pad9)"
+      "unconnected-(U2-DATA-Pad2)" "unconnected-(U2-GND-Pad1)" "unconnected-(U2-SCK-Pad3)"
+      "unconnected-(U2-VDD-Pad4)"
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 200  52748.1 -36650  53099.1 -36650)(net GND)(type route))
+    (wire (path F.Cu 200  52748.1 -37450  52748.1 -36650)(net GND)(type route))
+    (wire (path F.Cu 200  53450 -37450  52748.1 -37450)(net GND)(type route))
+    (wire (path F.Cu 200  53397.2 -36351.9  53099.1 -36650)(net GND)(type route))
+    (wire (path F.Cu 200  53400 -36351.9  53397.2 -36351.9)(net GND)(type route))
+    (wire (path F.Cu 200  53400 -35700  53400 -36351.9)(net GND)(type route))
+    (wire (path F.Cu 200  56178.8 -44848.1  56150 -44848.1)(net GND)(type route))
+    (wire (path F.Cu 200  57375 -43651.9  56178.8 -44848.1)(net GND)(type route))
+    (wire (path F.Cu 200  57375 -42625  57375 -43651.9)(net GND)(type route))
+    (wire (path F.Cu 200  56150 -45550  56150 -44848.1)(net GND)(type route))
+    (wire (path F.Cu 200  54101.9 -35750  54550 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  54051.9 -35700  54101.9 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  53400 -35700  54051.9 -35700)(net GND)(type route))
+    (wire (path F.Cu 200  57375 -40650  57375 -42625)(net GND)(type route))
+    (wire (path F.Cu 200  57375 -40650  57375 -38675)(net GND)(type route))
+    (wire (path F.Cu 200  56950 -37223.1  56950 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  57375 -37648.1  56950 -37223.1)(net GND)(type route))
+    (wire (path F.Cu 200  57375 -38675  57375 -37648.1)(net GND)(type route))
+    (wire (path F.Cu 200  59350 -40650  59350 -42625)(net GND)(type route))
+    (wire (path F.Cu 200  61325 -40650  61325 -42625)(net GND)(type route))
+    (wire (path F.Cu 200  64200 -35700  64150 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  65300 -35700  64200 -35700)(net GND)(type route))
+    (wire (path F.Cu 200  65951.9 -45600  65300 -45600)(net GND)(type route))
+    (wire (path F.Cu 200  65951.9 -35700  65951.9 -45600)(net GND)(type route))
+    (wire (path F.Cu 200  65300 -35700  65951.9 -35700)(net GND)(type route))
+    (wire (path F.Cu 200  52748.1 -44650  53450 -44650)(net GND)(type route))
+    (wire (path F.Cu 200  52748.1 -45600  52748.1 -44650)(net GND)(type route))
+    (wire (path F.Cu 200  53400 -45600  52748.1 -45600)(net GND)(type route))
+    (wire (path F.Cu 200  55951.9 -44650  56150 -44848.1)(net GND)(type route))
+    (wire (path F.Cu 200  53450 -44650  55951.9 -44650)(net GND)(type route))
+    (wire (path F.Cu 200  61750 -35750  61325 -35750  60950 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  61325 -40650  61325 -38675  61325 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  59350 -40650  59350 -38675  59350 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  64150 -35750  63350 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  53450 -36650  53099.1 -36650)(net GND)(type route))
+    (wire (path F.Cu 200  63350 -35750  62550 -35750  61750 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  56950 -35750  56150 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  59350 -35750  58550 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  60950 -35750  60150 -35750  59350 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  58550 -35750  57750 -35750  56950 -35750)(net GND)(type route))
+    (wire (path F.Cu 200  56150 -35750  55350 -35750  54550 -35750)(net GND)(type route))
+  )
+)
