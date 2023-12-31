@@ -19,4 +19,14 @@
   (pad "1" thru_hole circle (at -16.765 0) (size 3.62 3.62) (drill 1.81) (layers "*.Cu" "*.Mask") (tstamp 02f2b10b-63ea-49f5-b0f9-e8501dcf4927))
   (pad "2" thru_hole circle (at 16.765 0) (size 3.62 3.62) (drill 1.81) (layers "*.Cu" "*.Mask") (tstamp bf7e4b0c-19f4-435d-a19a-ed89709d9d42))
   (pad "2" thru_hole circle (at 24.385 0) (size 3.62 3.62) (drill 1.81) (layers "*.Cu" "*.Mask") (tstamp e57eb0e0-d2c3-41ba-bcb2-a108d7fc2d67))
+  (model "${KIPRJMOD}/T&H.pretty/92.STEP"
+    (offset (xyz 20.59 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KIPRJMOD}/T&H.pretty/92.STEP"
+    (offset (xyz -20.59 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -180))
+  )
 )

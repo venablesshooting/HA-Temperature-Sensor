@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"BT1, BT2, BT3",Keystone 92,3,Battery_Cell,
+"C1, C2, C3",0603,3,1u,
+"H1, H2, H3, H4",MountingHole_3.2mm_M3_DIN965_Pad,4,MountingHole,
+"R1, R2, R3, R8, R9",0603,5,10k,
+"TP1, TP2, TP3",TestPoint_Pad_D1.5mm,3,TestPoint,
+U1,ESP32-C3-MINI-1,1,ESP32-C3-MINI-1,
+U2,Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad,1,SHT4x,
+U3,SOT-23-5,1,MIC5504-3.3YM5,
+"s1, s3",TS-1070A-B3D2,2,TS-1070A,
